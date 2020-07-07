@@ -52,3 +52,26 @@ Please meditate on the following code:
 
 
 Press any key to continue...
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+
+
+about asserts:
+    AssertExpectation passed
+    FillInValues passed
+
+about let:
+    LetBindsANameToAValue failed.
+
+
+
+You have not yet reached enlightenment ...
+Seek wisdom by filling in the __
+
+Please meditate on the following code:
+   at FSharpKoans.about let.LetBindsANameToAValue() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLet.fs:line 18
+
+
+
+
+Press any key to continue...
