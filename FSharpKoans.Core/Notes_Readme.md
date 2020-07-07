@@ -184,6 +184,29 @@ You have not yet reached enlightenment ...
   But was:  "hellothere!!!YELLED"
   -----------^
 
+  Completed VariablesInTheParentScopeCanBeAccessed -----------------------------------------
+
+
+about functions:
+    CreatingFunctionsWithLet passed
+    NestingFunctions passed
+    AddingTypeAnnotations passed
+    VariablesInTheParentScopeCanBeAccessed passed
+
+about the order of evaluation:
+    SometimesYouNeedParenthesisToGroupThings failed.
+
+
+
+You have not yet reached enlightenment ...
+Seek wisdom by filling in the __
+
+Please meditate on the following code:
+   at FSharpKoans.about the order of evaluation.SometimesYouNeedParenthesisToGroupThings() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheOrderOfEvaluation.fs:line 21
+
+
+
+
 
 Please meditate on the following code:
    at NUnit.Framework.Assert.ReportFailure(String message)
