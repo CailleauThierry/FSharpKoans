@@ -63,7 +63,7 @@ module ``about functions`` =
 
         let caffeinatedReply = caffeinate "hello there"
 
-        AssertEquality caffeinatedReply __
+        AssertEquality caffeinatedReply "hello there!!!"
 
         (* NOTE: Accessing the suffix variable in the nested caffeinate function 
                  is known as a closure. 

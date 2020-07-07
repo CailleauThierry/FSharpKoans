@@ -167,3 +167,30 @@ Please meditate on the following code:
 
 
 Press any key to continue...
+
+Still Learning -----------------------------------------
+
+about functions:
+    CreatingFunctionsWithLet passed
+    NestingFunctions passed
+    AddingTypeAnnotations passed
+    VariablesInTheParentScopeCanBeAccessed failed.
+
+
+
+You have not yet reached enlightenment ...
+  Expected string length 14 but was 19. Strings differ at index 0.
+  Expected: "HELLO THERE!!!"
+  But was:  "hellothere!!!YELLED"
+  -----------^
+
+
+Please meditate on the following code:
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at FSharpKoans.about functions.VariablesInTheParentScopeCanBeAccessed() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutFunctions.fs:line 66
+
+
+
