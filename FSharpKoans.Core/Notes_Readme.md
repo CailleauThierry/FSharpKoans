@@ -140,3 +140,9 @@ Please meditate on the following code:
 
 
 Press any key to continue...
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutFunctions.fs(48,13): error FS0072: Lookup on object of indeterminate type based on information prior to this program point. A type annotation may be needed prior to this program point to constrain the type of the object. This may allow the lookup to be resolved. [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> 
