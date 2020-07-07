@@ -75,3 +75,68 @@ Please meditate on the following code:
 
 
 Press any key to continue...
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+
+
+about asserts:
+    AssertExpectation passed
+    FillInValues passed
+
+about let:
+    LetInfersTheTypesOfValuesWherePossible passed
+    YouCanMakeTypesExplicit passed
+    FloatsAndInts passed
+    ModifyingTheValueOfVariables passed
+
+
+
+You have not yet reached enlightenment ...
+  Expected: 100
+  But was:  50
+
+
+Please meditate on the following code:
+   at NUnit.Framework.Assert.ReportFailure(String message)
+   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)
+   at NUnit.Framework.Assert.AreEqual(Object expected, Object actual)
+   at FSharpKoans.about let.YouCannotModifyALetBoundValueIfItIsNotMutable() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLet.fs:line 85
+
+
+
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLet.fs(79,9): error FS0027: This value is not mutable. Consider using the mutable keyword, e.g. 'let mutable x = expression'. [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+
+
+about asserts:
+    AssertExpectation passed
+    FillInValues passed
+
+about let:
+    LetBindsANameToAValue passed
+    LetInfersTheTypesOfValuesWherePossible passed
+    YouCanMakeTypesExplicit passed
+    FloatsAndInts passed
+    ModifyingTheValueOfVariables passed
+    YouCannotModifyALetBoundValueIfItIsNotMutable passed
+
+about functions:
+    CreatingFunctionsWithLet failed.
+
+
+
+You have not yet reached enlightenment ...
+Seek wisdom by filling in the __
+
+Please meditate on the following code:
+   at FSharpKoans.about functions.CreatingFunctionsWithLet() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutFunctions.fs:line 27
+
+
+
+
+Press any key to continue...
