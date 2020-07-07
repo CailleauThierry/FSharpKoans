@@ -146,3 +146,24 @@ C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutFunc
 
 The build failed. Fix the build errors and run again.
 PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> 
+
+Now adding type annotation back makes the test pass -----------------------------------------
+
+about functions:
+    CreatingFunctionsWithLet passed
+    NestingFunctions passed
+    AddingTypeAnnotations passed
+    VariablesInTheParentScopeCanBeAccessed failed.
+
+
+
+You have not yet reached enlightenment ...
+Seek wisdom by filling in the __
+
+Please meditate on the following code:
+   at FSharpKoans.about functions.VariablesInTheParentScopeCanBeAccessed() in C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutFunctions.fs:line 66
+
+
+
+
+Press any key to continue...

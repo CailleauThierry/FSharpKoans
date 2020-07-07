@@ -44,7 +44,7 @@ module ``about functions`` =
         (* Sometimes you need to help F#'s type inference system out with an
            explicit type annotation *)
     
-        let sayItLikeAnAuctioneer (text) =
+        let sayItLikeAnAuctioneer (text:string) =
             text.Replace(" ", "")
 
         let auctioneered = sayItLikeAnAuctioneer "going once going twice sold to the lady in red"
