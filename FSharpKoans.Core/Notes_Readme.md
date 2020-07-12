@@ -1,3 +1,24 @@
+Sunday July 12, 2020
+---------------------
+cd C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans
+dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+
+
+        let result = add add 5 8 add 1 1
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheOrderOfEvaluation.fs(19,26): error FS0001: Type mismatch. Expecting a    ''a'    but given a    ''a -> 'b -> 'c -> 'd -> 'e
+ -> 'f -> 'g'    The types ''a' and ''a -> 'b -> 'c -> 'd -> 'e -> 'f -> 'g' cannot be unified. [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheOrderOfEvaluation.fs(19,34): error FS0001: Type mismatch. Expecting a    ''a'    but given a    ''b -> int -> int -> 'a -> 
+'c -> 'd -> 'e'    The types ''a' and ''b -> int -> int -> 'a -> 'c -> 'd -> 'e' cannot be unified. [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheOrderOfEvaluation.fs(17,15): error FS0043: The type 'int -> 'a -> int -> int -> 'b' does not match the type 'int' [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+right order:
+
+
+        let result = add (add 5 8) (add 1 1)
+
+The build failed. Fix the build errors and run again.
 07_07_2020
 ---------------------
 
