@@ -18,6 +18,10 @@ right order:
 
         let result = add (add 5 8) (add 1 1)
 
+        let result = double <| add 5 8
+
+        Backward pipes are cool!
+
 The build failed. Fix the build errors and run again.
 07_07_2020
 ---------------------
