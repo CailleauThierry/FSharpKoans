@@ -13,6 +13,9 @@ C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheO
 'c -> 'd -> 'e'    The types ''a' and ''b -> int -> int -> 'a -> 'c -> 'd -> 'e' cannot be unified. [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
 C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutTheOrderOfEvaluation.fs(17,15): error FS0043: The type 'int -> 'a -> int -> int -> 'b' does not match the type 'int' [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
 
+The build failed. Fix the build errors and run again.
+
+
 right order:
 
 
@@ -22,7 +25,25 @@ right order:
 
         Backward pipes are cool!
 
-The build failed. Fix the build errors and run again.
+
+
+
+https://www.javatpoint.com/f-sharp-return-multiple-values-using-tuples#:~:text=F%23%20Return%20Multiple%20Values%20Using,multiple%20values%20by%20using%20tuples.
+F# Return Multiple Values Using Tuples
+Function does not return multiple values. In F#, you can return multiple values by using tuples. Let's see an Example.
+
+let TupleExample a b =   
+ let c = a+b  
+ let d = a-b  
+ (c, d)  
+   
+let tupleValues = TupleExample 50 10   
+printf "%A" tupleValues  
+Output:
+
+(60, 40)
+
+
 07_07_2020
 ---------------------
 
