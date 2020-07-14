@@ -1,5 +1,25 @@
-07_13_2020
+07_14_2020
 ---------------------
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutBranching.fs(42,19): warning FS0025: Incomplete pattern matches on this expression. For example, the value '"a"' may indicate a case not covered by the pattern(s). [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+Resolved by using the "_" which seems to be like a blank
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLists.fs(25,34): error FS0001: This expression was expected to have type    'string list'    but here has type    'string' [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\
+FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+
+property Tail: list<string>
+Description
+
+Gets the tail of the list, which is a list containing all the elements of the list, excluding the first element
+
+Full name: Microsoft.FSharp.Collections.List.Tail
+
+Assembly: FSharp.Core
+
 
 
 07_12_2020
