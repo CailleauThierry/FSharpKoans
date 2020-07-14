@@ -22,7 +22,7 @@ module ``about lists`` =
         //      so indexing elements is O(n). 
         
         AssertEquality list.Head "apple"
-        AssertEquality list.Tail "peach"
+        AssertEquality list.Tail ["pear"; "grape"; "peach"]
         AssertEquality list.Length 4
 
         (* .NET developers coming from other languages may be surprised
@@ -47,8 +47,8 @@ module ``about lists`` =
 
         //What happens if you uncomment the following?
 
-        //first.Head <- "apple"
-        //first.Tail <- ["peach"; "pear"]
+        first.Head <- "apple"
+        first.Tail <- ["peach"; "pear"]
 
         //THINK ABOUT IT: Can you change the contents of a list once it has been
         //                created?

@@ -20,7 +20,16 @@ Full name: Microsoft.FSharp.Collections.List.Tail
 
 Assembly: FSharp.Core
 
+        //What happens if you uncomment the following?
 
+        first.Head <- "apple"
+        first.Tail <- ["peach"; "pear"]
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLists.fs(50,9): error FS0810: Property 'Head' cannot be set [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutLists.fs(51,9): error FS0810: Property 'Tail' cannot be set [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.        
 
 07_12_2020
 ---------------------
