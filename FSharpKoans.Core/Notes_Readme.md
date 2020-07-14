@@ -1,4 +1,8 @@
-Sunday July 12, 2020
+07_13_2020
+---------------------
+
+
+07_12_2020
 ---------------------
 cd C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans
 dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
@@ -43,6 +47,21 @@ Output:
 
 (60, 40)
 
+        let message = printf "F# turns it to %d!" 11
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutStrings.fs(29,32): error FS0001: This expression was expected to have type    'unit'    but here has type    'string' [C:\User
+s\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+
+      let message = sprintf "F# turns it to %d!" "one"
+
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutStrings.fs(27,52): error FS0001: The type 'string' is not compatible with any of the types byte,int16,int32,int64,sbyte,uint16,uint32,uint64,nativeint,unativeint, arising from the use of a printf-style format string [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> 
 
 07_07_2020
 ---------------------
