@@ -90,7 +90,7 @@ module ``about strings`` =
     let ApplyWhatYouLearned() =
         (* It's time to apply what you've learned so far. Fill in the function below to
            make the asserts pass *)
-        let getFunFacts x= 
+        let getFunFacts x = 
             let double x =
                 x * 2
             let triple x =
