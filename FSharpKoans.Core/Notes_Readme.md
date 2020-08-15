@@ -1,3 +1,8 @@
+08_15_2020
+---------------------
+
+
+
 07_14_2020
 ---------------------
 PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
