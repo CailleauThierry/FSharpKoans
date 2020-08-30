@@ -1,3 +1,39 @@
+08_30_2020
+---------------------
+PS C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans> dotnet.exe run -p .\FSharpKoans\FSharpKoans.fsproj
+C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\AboutDotNetCollections.fs(60,31): error FS0001: This expression was expected to have type    'seq<int>'    but here has type    ''a
+ list' [C:\Users\tcailleau\Documents\NETCore3.1\FSharp\FSharpKoans\FSharpKoans\FSharpKoans.fsproj]
+
+The build failed. Fix the build errors and run again.
+
+referring to code line 60:
+
+"
+    [<Koan>]
+    let SkippingElements() =
+        let original = [0..5]
+        let result = Seq.skip 2 original
+        
+        AssertEquality result [2]
+"
+
+ConsoleCopy
+1.0 1.5 2.0 1.5 1.0 1.5
+
+From <https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/sequences> 
+
+        AssertEquality result seq<int>{0 1 3 4 5}
+
+From <https://github.com/ChrisMarinos/FSharpKoans/pull/76/files> 
+
+--> (seq{2..5})
+
+From <https://github.com/ChrisMarinos/FSharpKoans/issues/83> 
+
+And finding the solution to be
+
+        AssertEquality result (seq[2..5])
+
 08_15_2020
 ---------------------
 
